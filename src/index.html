@@ -1,0 +1,456 @@
+<!doctype html>
+<html data-theme="wireframe" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmosys - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/logo.png">
+    <link href="./index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar bg-base-100 border-b-2 border-base-200 shadow-sm  sticky top-0 z-50">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </label>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a href="#about">about.</a></li>
+                    <li><a href="#skills">skills.</a></li>
+                    <li><a href="#projects">projects.</a></li>
+                    <li><a href="#education">education.</a></li>
+                    <li><a href="#courses">courses.</a></li>
+                    <li><a href="#work">work.</a></li>
+                    <li><a href="#contact">contact.</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-ghost normal-case text-xl" href="#"><img src="./assets/logo.png" alt="" height="36"
+                    width="36"></a>
+        </div>
+        <div class="navbar-end hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="#about">about.</a></li>
+                <li><a href="#skills">skills.</a></li>
+                <li><a href="#projects">projects.</a></li>
+                <li><a href="#education">education.</a></li>
+                <li><a href="#courses">courses.</a></li>
+                <li><a href="#work">work.</a></li>
+                <li><a href="#contact">contact.</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- About -->
+    <section class="container mx-auto px-6 md:px-10 lg:px-20 py-20 min-h-screen flex justify-center items-center" id="header">
+        <div class="w-full md:w-1/3 hidden md:block lg:block md:mt-0 mr-20">
+            <img src="./assets/a-man-at-his-computer-waving-hello.svg" alt="illustration"
+                class="w-full h-auto select-none">
+        </div>
+        <div class="w-full md:w-1/2 text-left"> <!-- Centrer le contenu horizontalement -->
+            <h2 class="text-2xl font-semibold text-gray-600 mt-1">👋 Hey there! I'm -
+    
+            <h1 class="text-8xl font-semibold text-gray-800 font-caveat">Ahmosys.</h1>
+            <hr>
+            <h2 class="text-2xl font-semibold text-gray-600 mt-1">Software Engineer
+            </h2>
+            <a class="btn mt-4" href="#about">Discover more</a>
+        </div>
+    </section>
+    
+
+    <!-- About -->
+    <section class="container mx-auto px-6 md:px-10 lg:px-20 py-20" id="about">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="w-full md:w-1/2">
+                <h2 class="text-6xl font-semibold text-gray-800 font-caveat">About</h2>
+                <h3 class="text-xl font-semibold text-gray-600 mt-1">We don't know anything about you, tell us more.
+                </h3>
+                <blockquote class="text-gray-600 mt-10 italic">
+                    <svg class="w-8 h-8 text-gray-400 mb-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor" viewBox="0 0 18 14">
+                        <path
+                            d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
+                    </svg>
+                    <p>" Fascinated by the computer world since I was a child, I chose development. This practice
+                        combines logic, pragmatism and creativity which are values I particularly like. Driven by my
+                        attention to detail, my perseverance and my curiosity have allowed me to evolve continuously.
+                        The field of computer development fascinates me and interests me, integrating myself into it was
+                        logical and natural, being moreover, in full correlation with my state of mind. "</p>
+                </blockquote>
+            </div>
+            <div class="w-full md:w-1/3 hidden md:block lg:block mt-8 md:mt-0">
+                <img src="./assets/a-man-practicing-programming-on-his-computer.svg" alt="illustration"
+                    class="w-full h-auto">
+            </div>
+        </div>
+    </section>
+
+    <div class="divider px-6 md:px-10 lg:px-20 py-20""></div>
+
+    <!-- Skills -->
+    <section class="container mx-auto px-6 md:px-10 lg:px-20 py-20" id="skills">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="w-full md:w-1/3 hidden md:block lg:block mt-8 md:mt-0">
+                <img src="./assets/a-developer-showing-off-his-skills-to-his-colleagu.svg" alt="illustration"
+                    class="w-full h-auto">
+            </div>
+            <div class="w-full md:w-1/2">
+                <h2 class="text-6xl font-semibold text-gray-800 font-caveat">Skills</h2>
+                <h3 class="text-xl font-semibold text-gray-600 mt-1">Concretely, what do you know ?</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+                    <div class="col-span-1">
+                        <h5 class="text-lg font-semibold text-gray-900">OS</h5>
+                        <hr class="mb-2">
+                        <p><img class="inline-block h-5" src="https://cdn.simpleicons.org/linux/gray/"
+                                alt="icon" />&nbsp;Linux</p>
+                        <p><img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/windows/gray/"
+                                alt="icon" />&nbsp;Windows</p>
+                    </div>
+                    <div class="col-span-1">
+                        <h5 class="text-lg font-semibold text-gray-900">Languages</h5>
+                        <hr class="mb-2">
+                        <p><img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/php/gray/"
+                                alt="icon" />&nbsp;PHP</p>
+                        <p><img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/javascript/gray/"
+                                alt="icon" />&nbsp;JavaScript</p>
+                        <p><img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/csharp/gray/"
+                                alt="icon" />&nbsp;C Sharp</p>
+                        <p><img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/python/gray/"
+                                alt="icon" />&nbsp;Python</p>
+                    </div>
+                    <div class="col-span-1">
+                        <h5 class="text-lg font-semibold text-gray-900">Databases</h5>
+                        <hr class="mb-2">
+                        <p class=""><img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/mysql/gray/"
+                                alt="icon" />&nbsp;MySQL</p>
+                        <p class=""><img class="inline-block w-5 h-5"
+                                src="https://cdn.simpleicons.org/microsoftsqlserver/gray/" alt="icon" />&nbsp;SQLServer
+                        </p>
+                        <p class=""><img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/postgresql/gray/"
+                                alt="icon" />&nbsp;PostgreSQL</p>
+                    </div>
+                    <div class="col-span-1">
+                        <h5 class="text-lg font-semibold text-gray-900">Frameworks</h5>
+                        <hr class="mb-2">
+                        <p class=""><img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/symfony/gray/"
+                                alt="icon" />&nbsp;Symfony</p>
+                        <p class=""><img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/dotnet/gray/"
+                                alt="icon" />&nbsp;.NET Core</p>
+                        <p class=""><img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/bootstrap/gray/"
+                                alt="icon" />&nbsp;Bootstrap</p>
+                        <p class=""><img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/jquery/gray/"
+                                alt="icon" />&nbsp;jQuery</p>
+                    </div>
+                    <div class="col-span-1">
+                        <h5 class="text-lg font-semibold text-gray-900">DevOps</h5>
+                        <hr class="mb-2">
+                        <p class=""><img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/gnubash/gray/"
+                                alt="icon" />&nbsp;Bash</p>
+                        <p class=""><img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/docker/gray/"
+                                alt="icon" />&nbsp;Docker</p>
+                        <p class=""><img class="inline-block w-5 h-5"
+                                src="https://cdn.simpleicons.org/githubactions/gray/" alt="icon" />&nbsp;CI/CD</p>
+                    </div>
+                    <div class="col-span-1">
+                        <h5 class="text-lg font-semibold text-gray-900">IDE</h5>
+                        <hr class="mb-2">
+                        <p class=""><img class="inline-block w-5 h-5"
+                                src="https://cdn.simpleicons.org/visualstudiocode/gray/" alt="icon" />&nbsp;VS Code</p>
+                        <p class=""><img class="inline-block w-5 h-5"
+                                src="https://cdn.simpleicons.org/visualstudio/gray/" alt="icon" />&nbsp;VS</p>
+                        <p class=""><img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/jetbrains/gray/"
+                                alt="icon" />&nbsp;JetBrains</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider px-6 md:px-10 lg:px-20 py-20"></div>
+
+    <!-- Projects -->
+    <section class="container mx-auto px-6 md:px-10 lg:px-20 py-20" id="projects">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="w-full md:w-1/2">
+                <h2 class="text-6xl font-semibold text-gray-800 font-caveat">Projects</h2>
+                <h3 class="text-xl font-semibold text-gray-600 mt-1">And what have you done since you started developing
+                    ?</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
+                    <!-- First Card -->
+                    <div class="card card-compact bg-base-1OO border-solid border-2 shadow-sm">
+                        <figure><img src="https://picsum.photos/300/200" class="grayscale hover:grayscale-0"
+                                alt="picture" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title">FooBar</h2>
+                            <p>An e-commerce site to sell panda food.</p>
+                            <hr> 
+                            <div class="flex items-center">
+                                <div class="tooltip" data-tip="Symfony 6">
+                                    <img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/symfony/gray/" alt="icon" />
+                                </div>        
+                            </div>
+                            <div class="card-actions mt-3">
+                                <button class="btn btn-sm">Demo</button>
+                                <button class="btn btn-sm">Source</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second Card -->
+                    <div class="card card-compact bg-base-1OO border-solid border-2 shadow-sm">
+                        <figure><img src="https://picsum.photos/300/200" class="grayscale hover:grayscale-0"
+                                alt="picture" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Lorem</h2>
+                            <p>A heavy client application to manage an e-commerce site database.</p>
+                            <hr> 
+                            <div class="flex items-center">
+                                <div class="tooltip" data-tip="C#">
+                                    <img class="inline-block w-5 h-5 mr-2" src="https://cdn.simpleicons.org/csharp/gray/" alt="icon" />
+                                </div>
+                                <div class="tooltip" data-tip=".NET Core">
+                                    <img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/dotnet/gray/"
+                                    alt="icon" />
+                                </div>
+                            </div>
+                            <div class="card-actions mt-3">
+                                <button class="btn btn-sm">Demo</button>
+                                <button class="btn btn-sm">Source</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third Card -->
+                    <div class="card card-compact bg-base-100 border-solid border-2 shadow-sm">
+                        <figure><img src="https://picsum.photos/300/200" class="grayscale hover:grayscale-0"
+                                alt="picture" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Calendar</h2>
+                            <p>A mobile application to get the school calendar without going through the website.</p>
+                            <hr> 
+                            <div class="flex items-center">
+                                <div class="tooltip" data-tip="Flutter">
+                                    <img class="inline-block w-5 h-5 mr-2" src="https://cdn.simpleicons.org/flutter/gray/" alt="icon" />
+                                </div> 
+                                <div class="tooltip" data-tip="Android">
+                                    <img class="inline-block w-5 h-5" src="https://cdn.simpleicons.org/android/gray/" alt="icon" />
+                                </div> 
+                            </div>
+                            
+                            <div class="card-actions mt-3">
+                                <button class="btn btn-sm">Demo</button>
+                                <button class="btn btn-sm">Source</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="flex justify-center mt-10"> <!-- Ajout de la classe flex justify-center -->
+                    <button class="btn btn-wide">View more</button>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3 hidden md:block lg:block mt-8 md:mt-0">
+                <img src="./assets/a-developer-showing-all-his-projects-in-front-of-a.svg" alt="illustration"
+                    class="w-full h-auto">
+            </div>
+        </div>
+    </section>
+
+    <div class="divider px-6 md:px-10 lg:px-20 py-20""></div>
+
+    <!-- Education -->
+    <section class="container mx-auto px-6 md:px-10 lg:px-20 py-20" id="education">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="w-full md:w-1/3 hidden md:block lg:block mt-8 md:mt-0">
+                <img src="./assets/a-recent-graduate-with-diploma-in-hand-is-celebrat.svg" alt="illustration"
+                    class="w-full h-auto">
+            </div>
+            <div class="w-full md:w-1/2">
+                <h2 class="text-6xl font-semibold text-gray-800 font-caveat">Education</h2>
+                <h3 class="text-xl font-semibold text-gray-600 mt-1">But otherwise you have degrees ?
+                </h3>
+                <div class="max-w-2xl mx-auto mt-10">
+                    <ol class="relative border-l border-gray-200 dark:border-gray-700">
+                        <li class="mb-5 ml-4">
+                            <div
+                                class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                            </div>
+                            <time class="mb-1 text-sm font-normal leading-none text-gray-400">2022 - 2023</time>
+                            <h3 class="text-lg font-semibold text-gray-900">Professional Title at Level 7 - IT and
+                                Information Systems Expert</h3>
+                            <p class="text-base font-normal text-gray-600 mt-1">EPSI Montpellier, France</p>
+                            <p class="font-semibold text-gray-500 mt-1">In progress</p>
+                        </li>
+                        <li class="mb-5 ml-4">
+                            <div
+                                class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                            </div>
+                            <time class="mb-1 text-sm font-normal leading-none text-gray-400">2022 - 2023</time>
+                            <h3 class="text-lg font-semibold text-gray-900">Professional Title at Level 6 - Application
+                                Designer and Developer</h3>
+                            <p class="text-base font-normal text-gray-600 mt-1">EPSI Montpellier, France</p>
+                            <p class="font-semibold text-gray-500 mt-1">Grade: Obtained</p>
+                        </li>
+                        <li class="mb-5 ml-4">
+                            <div
+                                class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                            </div>
+                            <time class="mb-1 text-sm font-normal leading-none text-gray-400">2020 - 2022</time>
+                            <h3 class="text-lg font-semibold text-gray-900">BTEC Higher National Diploma - IT Services
+                                to Organizations</h3>
+                            <p class="text-base font-normal text-gray-700 mt-1">Option in Software Solutions and
+                                Business Applications</p>
+                            <p class="text-base font-normal text-gray-600">Polyvalent High School Marc Bloch Sérignan,
+                                France</p>
+                            <p class="font-semibold text-gray-500 mt-1">Grade: 18.18/20, Academic Major</p>
+                        </li>
+                        <li class="ml-4">
+                            <div
+                                class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                            </div>
+                            <time class="mb-1 text-sm font-normal leading-none text-gray-400">2020</time>
+                            <h3 class="text-lg font-semibold text-gray-900">Business and Technology Education Council
+                                National Diploma - Sciences and Technologies of Industry and Sustainable Development
+                            </h3>
+                            <p class="text-base font-normal text-gray-700 mt-1">Option in Information Systems and
+                                Digital</p>
+                            <p class="text-base font-normal text-gray-600">Polyvalent High School Jean Moulin Béziers,
+                                France</p>
+                            <p class="font-semibold text-gray-500 mt-1">Grade: 16.00/20, Highest Honour</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider px-6 md:px-10 lg:px-20 py-20""></div>
+
+    <!-- Work -->
+    <section class="container mx-auto px-6 md:px-10 lg:px-20 py-20" id="work">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="w-full md:w-1/2">
+                <h2 class="text-6xl font-semibold text-gray-800 font-caveat">Work</h2>
+                <h3 class="text-xl font-semibold text-gray-600 mt-1">Have you ever worked ?
+                </h3>
+                <div class="max-w-2xl mx-auto mt-10">
+                    <ol class="relative border-l border-gray-200 dark:border-gray-700">
+                        <li class="mb-5 ml-4">
+                            <div
+                                class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                            </div>
+                            <time class="mb-1 text-sm font-normal leading-none text-gray-400">Sep. 2022 - Now</time>
+                            <h3 class="text-lg font-semibold text-gray-900">Web developer - SMILE</h3>
+                            <p class="text-base font-normal text-gray-700 mt-1">Montpellier, France</p>
+                            <p class="text-base font-normal text-gray-500">Work-study contract</p>
+                            <p class="font-semibold text-gray-500 mt-1">In progress</p>
+                        </li>
+                        <li class="mb-5 ml-4">
+                            <div
+                                class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                            </div>
+                            <time class="mb-1 text-sm font-normal leading-none text-gray-400">Jan. 2022 - Feb.
+                                2022</time>
+                            <h3 class="text-lg font-semibold text-gray-900">Web developer - TentationVoyage</h3>
+                            <p class="text-base font-normal text-gray-700 mt-1">Sérignan, France</p>
+                            <p class="text-base font-normal text-gray-500">Internship</p>
+                            <p class="font-semibold text-gray-500 mt-1">• Analyze the customer's needs and create a
+                                prototype of the technical solution for validation by the client.</p>
+                            <p class="font-semibold text-gray-500">• Design and develop the programs and applications.
+                            </p>
+                            <p class="font-semibold text-gray-500">• Elaborate and write the documents and technical
+                                supports.</p>
+
+                        </li>
+                        <li class="mb-5 ml-4">
+                            <div
+                                class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                            </div>
+                            <time class="mb-1 text-sm font-normal leading-none text-gray-400">May. 2021 - Jun.
+                                2021</time>
+                            <h3 class="text-lg font-semibold text-gray-900">Web developer - MaFerme</h3>
+                            <p class="text-base font-normal text-gray-700 mt-1">Sérignan, France</p>
+                            <p class="text-base font-normal text-gray-500">Internship</p>
+                            <p class="font-semibold text-gray-500 mt-1">• Analyze the customer's needs and create a
+                                prototype of the technical solution for validation by the client.</p>
+                            <p class="font-semibold text-gray-500">• Design and develop the programs and applications.
+                            </p>
+                            <p class="font-semibold text-gray-500">• Elaborate and write the documents and technical
+                                supports.</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3 hidden md:block lg:block mt-8 md:mt-0">
+                <img src="./assets/a-person-teleworking-by-videoconference.svg" alt="illustration"
+                    class="w-full h-auto">
+            </div>
+        </div>
+    </section>
+
+    <div class="divider px-6 md:px-10 lg:px-20 py-20""></div>
+
+    <!-- Contact -->
+    <section class="container mx-auto px-6 md:px-10 lg:px-20 py-20" id="contact">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="w-full md:w-1/3 hidden md:block lg:block mt-8 md:mt-0">
+                <img src="./assets/a-smartphone-with-number-on-screen.svg" alt="illustration" class="w-full h-auto">
+            </div>
+            <div class="w-full md:w-1/2">
+                <h2 class="text-6xl font-semibold text-gray-800 font-caveat">Contact</h2>
+                <h3 class="text-xl font-semibold text-gray-600 mt-1">I would like to contact you !
+                </h3>
+                <!-- Contact Form -->
+                <!-- Contact Form -->
+                <form class="mt-4 flex flex-wrap" action="submit_form.php" method="POST">
+                    <div class="form-control mb-4 w-full md:w-1/2">
+                        <label for="name" class="block text-gray-700 text-sm font-semibold mb-2">Name</label>
+                        <input type="text" id="name" name="name"
+                            class="w-full input input-bordered" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-control mb-4 w-full md:w-1/2 md:pl-4">
+                        <label for="email" class="block text-gray-700 text-sm font-semibold mb-2">Email</label>
+                        <input type="email" id="email" name="email"
+                            class="w-full input input-bordered" placeholder="john.doe@example.com" required>
+                    </div>
+                    <div class="form-control mb-4 w-full">
+                        <label for="subject" class="block text-gray-700 text-sm font-semibold mb-2">Subject</label>
+                        <input type="text" id="subject" name="subject"
+                            class="w-full input input-bordered" placeholder="Foobar" required>
+                    </div>
+                    <div class="form-control mb-4 w-full">
+                        <label for="message" class="block text-gray-700 text-sm font-semibold mb-2">Message</label>
+                        <textarea id="message" name="message" rows="4"
+                            class="w-full textarea textarea-bordered" placeholder="Lorem ipsum dolor sit, amet consectetur adipiscing elit." required></textarea>
+                    </div>
+                    <div class="mb-4 w-full">
+                        <button type="submit" class="btn">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer items-center p-4 bg-base-200">
+        <div class="items-center grid-flow-col">
+            <img src="./assets/logo.png" alt="" height="36" width="36">
+            <p>Copyright © 2023 Ahmosys</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
